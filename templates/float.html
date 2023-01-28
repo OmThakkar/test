@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin : 0px;
+            padding: 0px;
+        }
+
+        h1{
+            margin : 10px 0px 10px 10px;
+        }
+
+        div{
+            margin : 10px 0px 20px 10px;
+        }
+        #p1,#p2{  
+            width: 50%;
+            float: left;
+            padding: 10px;
+        }
+
+        section{
+            clear : left;
+        }
+    
+        #container{
+            background-color: aquamarine;
+            position : relative;
+        }
+
+        #p3,#p4,#p5,#p6{
+            height: 50px;
+            width: 50px;
+            border: 1px dashed gray;
+            padding : 15px;
+            margin-bottom: 15px;
+        }
+
+        #p3{
+            background-color: bisque;
+            position: relative;
+            top : 65px;
+            left: 100px;
+        }
+
+        #p4{
+            background-color: bisque;
+            position : absolute;
+            top : 0px;
+            left : 0px;
+        }
+
+        #p5{
+            background-color: bisque;
+        }
+
+        #p6{
+            background-color: bisque;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Two Column Design</h1>
+    <div>
+        <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni incidunt deserunt omnis aspernatur tempora qui voluptas sit voluptatem temporibus accusantium praesentium esse corporis odit fugiat, obcaecati id deleniti illo dolor voluptates! Fugit iusto ducimus aliquam. Harum tempora excepturi nihil hic alias rem voluptate similique. Velit explicabo doloribus labore ex, perspiciatis nulla enim doloremque inventore dolore facere odit perferendis, quisquam sunt reiciendis dolorum. Iure saepe pariatur totam repellat quis libero exercitationem ratione magni ipsa, sit rem sapiente accusantium alias sint ad similique quos quas, placeat voluptatem ut asperiores sed suscipit debitis. Ut esse earum assumenda rerum blanditiis necessitatibus dolore maxime odit!</p>
+        <p id="p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore ducimus provident asperiores delectus quam fuga dolores sit facilis earum, cum, consectetur accusamus voluptas. Placeat quisquam quam perspiciatis eius reprehenderit ad, nobis labore pariatur laboriosam odio doloremque ullam officiis! Perspiciatis dignissimos ratione velit quasi repudiandae quas quisquam dolor, placeat in sint, vitae sit mollitia maiores earum qui explicabo quos ipsa labore voluptatum rem deserunt ipsam eligendi fuga dolorem! Quas, qui tempore.</p>
+        <section>This is regular content continuing after the paragraph boxes</section>
+    </div>
+
+    <div id="container">
+        <p id="p3">1</p>
+        <p id="p4">2</p>
+        <p id="p5">3</p>
+        <p id="p6">4</p>
+    </div>
+</body>
+</html>
